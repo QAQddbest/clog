@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/clog.h
+stdio.h
+-
+stdarg.h
+-
+
+D:/Works/C/clog/src/clog.c
+stdio.h
+-
+string.h
+-
+time.h
+-
+clog.h
+D:/Works/C/clog/src/clog.h
+
